@@ -1,0 +1,56 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    height: 60px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-logo {
+    font-size: 1.8rem;
+    color: white;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout-btn {
+    background-color: rgb(133, 125, 115);
+    border: none;
+    padding: 8px 12px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 14px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    margin-right: 30px;
+}
+
+.nav-cart,
+.nav-home {
+    background-color: gray;
+    padding: 7px;
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
